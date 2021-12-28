@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">Unikapodcast</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string-array name="Pendidikan_Terakhir">
+        <item>Pendidikan Terakhir...</item>
+        <item>S1</item>
+        <item>S2</item>
+        <item>S3</item>
+    </string-array>
+
+    <string-array name="Fakultas">
+        <item>Mengajar di fakultas?</item>
+        <item>Ilmu Komputer</item>
+        <item>FKIP</item>
+        <item>Ekonomi</item>
+        <item>Hukum</item>
+        <item>Sastra</item>
+        <item>Pertanian</item>
+        <item>Teknik</item>
+        <item>Filsafat</item>
+
+    </string-array>
+
+    <string-array name="Category">
+        <item>Select a category</item>
+        <item>informasiunika</item>
+        <item>andreas</item>
+        <item>kuliahhariini</item>
+        <item>reynaldi</item>
+        <item>febri</item>
+        <item>frans</item>
+        <item>rektorat</item>
+        <item>storytelling</item>
+
+    </string-array>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

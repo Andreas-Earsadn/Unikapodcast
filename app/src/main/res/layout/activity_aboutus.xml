@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".aboutus">
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_infounikast"
+        android:orientation="horizontal"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageButton
+            android:id="@+id/imageButton"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_weight="1"
+            android:background="@color/yellow_unika"
+            android:scaleType="fitStart"
+            app:srcCompat="@drawable/back2" />
+        <TextView
+            android:id="@+id/txtabout"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1.5"
+            android:background="@color/yellow_unika"
+            android:text="ABOUT US"
+            android:layout_marginTop="5dp"
+            android:textStyle="bold"
+            android:paddingStart="20dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout3"
+        android:layout_width="413dp"
+        android:layout_height="161dp"
+        android:background="@drawable/bg_infounikast"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout2">
+
+        <ImageView
+            android:id="@+id/imageView2"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/logo" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/vorang"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout3"
+        app:layout_constraintVertical_bias="1.0">
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:background="#5CFBFB64"
+        android:gravity="center_horizontal"
+        android:justificationMode="inter_word"
+        android:text="UNIKAPODCAST merupakan sebuah aplikasi android yang mampu melakukan penyampaian informasi audio. Aplikasi ini membantu Universitas Katolik Santo Thomas Medan dalam meningkatkan kualitas informasi yang ada di lingkungan akademik Universitas Katolik Santo Thomas Medan. Selain itu, aplikasi ini juga membantu dalam proses belajar-mengajar dimana materi atau konten belajar  dimasukkan di dalam aplikasi UNIKAPODCAST dalam bentuk materi audio yang bisa diakses oleh user kapan saja dan dimana saja secara online.
+
+Sistem pada UNIKAPODCAST menggunakan arsitektur client-server dan juga admin-server serta mendukung penggunaan secara multi-user dalam hal ini adalah podcaster dan podcatcher.
+
+UNIKAPODCAST dikembangkan oleh: Andreas Parluhutan, Frans Waruwu, Reynaldi Mahombar, Ade Novtriman, Febri Citra.
+"
+        android:textColor="@color/black"
+        android:textStyle="italic"
+
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout3"
+        app:layout_constraintVertical_bias="0.723" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

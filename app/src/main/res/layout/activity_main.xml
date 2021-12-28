@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+    <!---->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="15dp">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:src="@drawable/ust"/>
+
+        <TextView
+            android:padding="15dp"
+            android:textColor="@color/black"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:fontFamily="sans-serif-black"
+            android:textSize="17sp"
+            android:text="UNIKAPODCAST LOGIN"/>
+
+
+
+    </LinearLayout>
+    <ImageView
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:src="@drawable/headlogin_foreground"/>
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<LinearLayout
+    android:orientation="vertical"
+    android:background="@drawable/bg_login"
+    android:layout_weight="1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:textColor="#FFFFFF"
+        android:text="LOGIN"
+        android:textAlignment="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="25dp"></RelativeLayout>
+
+    <EditText
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:id="@+id/etusername"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+
+        android:background="@drawable/form"
+        android:drawableStart="@drawable/useric"
+        android:textStyle="italic"
+        android:hint="   Username"
+        android:inputType="textPersonName"
+        android:paddingLeft="10dp" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="15dp"></RelativeLayout>
+
+    <EditText
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:id="@+id/etpassword"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+
+        android:background="@drawable/form"
+        android:drawableStart="@drawable/ic_baseline_vpn_key_24"
+        android:textStyle="italic"
+        android:hint=" Password"
+        android:inputType="textPassword"
+        android:paddingLeft="10dp" />
+
+    <TextView
+        android:padding="10dp"
+        style="bold"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:text="Forgot password?"
+
+        android:textColor="#FFFFFF" />
+
+
+
+    <Button
+
+        android:id="@+id/btlogin"
+        android:background="@drawable/blackbutton"
+        android:textAllCaps="false"
+        android:layout_width="200dp"
+        android:layout_height="39dp"
+        android:layout_gravity="center"
+        android:text="Log In"
+        android:textColor="@color/white"
+        android:textSize="15dp"/>
+
+
+    <RelativeLayout
+        android:layout_width="0dp"
+        android:layout_height="10dp">
+
+        <ProgressBar
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:scrollbarStyle="insideInset"
+            android:scrollbarSize="5dp"
+            android:id="@+id/progbar"
+            android:scrollbarThumbHorizontal="@drawable/progbar"
+
+            android:visibility="invisible" />
+
+    </RelativeLayout>
+
+
+    <TextView
+        style="bold"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="_______ or _______"
+        android:textAlignment="center"
+        android:textColor="@color/black" />
+
+    <LinearLayout
+        android:padding="10dp"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content">
+
+        <ImageButton
+            android:id="@+id/ibtFB"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_marginLeft="30dp"
+            android:background="@drawable/ic_facebook"
+            android:longClickable="true" />
+
+        <ImageButton
+            android:id="@+id/ibtGoogle"
+            android:background="@drawable/ic_google_plus"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_marginLeft="30dp"/>
+
+        <ImageButton
+            android:id="@+id/ibtIG"
+            android:background="@drawable/ic_instagram"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_marginLeft="30dp"/>
+
+        <ImageButton
+            android:id="@+id/ibtTwitter"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:background="@drawable/twitter"
+            android:layout_marginLeft="30dp"/>
+
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:padding="10dp"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+
+            android:layout_width="152dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="Don't have an account?" />
+
+        <TextView
+            android:id="@+id/linkregisterpodcatch"
+            android:layout_width="70dp"
+            android:layout_height="20dp"
+            android:text="Register"
+            android:textColor="#F20B13"/>
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="You can register as an admin." />
+
+        <TextView
+            android:id="@+id/linkregistercalonadmin"
+            android:layout_width="100dp"
+            android:layout_height="20dp"
+            android:text="Register Now!"
+            android:textColor="#042059" />
+
+</LinearLayout>
+
+    <LinearLayout
+
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="fitXY"
+        android:src="@drawable/vorang"/>
+    </LinearLayout>
+
+</LinearLayout>
+
+</ScrollView>
+</LinearLayout >
+
+
+
+
+

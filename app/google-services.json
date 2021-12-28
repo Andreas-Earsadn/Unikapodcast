@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "904933434187",
+    "project_id": "unikapodcast",
+    "storage_bucket": "unikapodcast.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:904933434187:android:cc369b8d1293e749bbbece",
+        "android_client_info": {
+          "package_name": "id.bass.unikapodcast"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "904933434187-o5k81hjkasrv9tn6s6bo9a9me6p23n0k.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA2D1yWblvD8hswmYEKHg8P4tsCLXuYM0Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "904933434187-o5k81hjkasrv9tn6s6bo9a9me6p23n0k.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
